@@ -1,24 +1,24 @@
-Bitcore-Dash Payment Protocol
+Bitcore-Terracoin Payment Protocol
 =======
 
-[![NPM Package](https://img.shields.io/npm/v/bitcore-payment-protocol-dash.svg?style=flat-square)](https://www.npmjs.org/package/bitcore-payment-protocol-dash)
-[![Build Status](https://img.shields.io/travis/dashpay/bitcore-payment-protocol-dash.svg?branch=master&style=flat-square)](https://travis-ci.org/dashpay/bitcore-payment-protocol-dash)
-[![Coverage Status](https://img.shields.io/coveralls/dashpay/bitcore-payment-protocol-dash.svg?style=flat-square)](https://coveralls.io/r/dashpay/bitcore-payment-protocol-dash)
+[![NPM Package](https://img.shields.io/npm/v/bitcore-payment-protocol-terracoin.svg?style=flat-square)](https://www.npmjs.org/package/bitcore-payment-protocol-terracoin)
+[![Build Status](https://img.shields.io/travis/TheSin-/bitcore-payment-protocol-terracoin.svg?branch=master&style=flat-square)](https://travis-ci.org/TheSin-/bitcore-payment-protocol-terracoin)
+[![Coverage Status](https://img.shields.io/coveralls/TheSin-/bitcore-payment-protocol-terracoin.svg?style=flat-square)](https://coveralls.io/r/TheSin-/bitcore-payment-protocol-terracoin)
 
-A module for [bitcore-dash](https://github.com/dashpay/bitcore-dash) that implements [Payment Protocol](https://github.com/bitcoin/bips/blob/master/bip-0070.mediawiki) and other related BIPs.
+A module for [bitcore-terracoin](https://github.com/TheSin-/bitcore-terracoin) that implements [Payment Protocol](https://github.com/bitcoin/bips/blob/master/bip-0070.mediawiki) and other related BIPs.
 
 ## Getting Started
 
 This library is distributed in both the npm and bower packaging systems.
 
 ```sh
-npm install bitcore-lib-dash
-npm install bitcore-payment-protocol-dash
+npm install bitcore-lib-terracoin
+npm install bitcore-payment-protocol-terracoin
 ```
 
 ```sh
-bower install bitcore-lib-dash
-bower install bitcore-payment-protocol-dash
+bower install bitcore-lib-terracoin
+bower install bitcore-payment-protocol-terracoin
 ```
 
 There are many examples of how to use it on the developer guide [section for payment protocol](https://bitcore.io/api/paypro). For example, the following code would verify a payment request:
@@ -41,7 +41,7 @@ var verified = request.verify();
 
 ## Contributing
 
-See [CONTRIBUTING.md](https://github.com/dsahpay/bitcore-dash/blob/master/CONTRIBUTING.md) on the main bitcore-dash repo for information about how to contribute.
+See [CONTRIBUTING.md](https://github.com/TheSin-/bitcore-terracoin/blob/master/CONTRIBUTING.md) on the main bitcore-terracoin repo for information about how to contribute.
 
 ## License
 
