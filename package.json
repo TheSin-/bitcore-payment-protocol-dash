@@ -44,12 +44,12 @@
   "browser": "lib/browser.js",
   "dependencies": {
     "asn1.js": "=4.5.2",
-    "bitcore-lib-terracoin": "^0.14.0",
+    "bitcore-lib-terracoin": "TheSin-/bitcore-lib-terracoin",
     "jsrsasign": "=5.0.10",
     "protobufjs": "=5.0.1"
   },
   "devDependencies": {
-    "bitcore-build-terracoin": "git://github.com/TheSin-/bitcore-build-terracoin.git#abcf0f2f26b7c3aa1b38305038b06d560d5ba7d7",
+    "bitcore-build-terracoin": "TheSin-/bitcore-build-terracoin",
     "brfs": "^1.2.0",
     "chai": "~1.10.0",
     "gulp": "^3.8.10",
