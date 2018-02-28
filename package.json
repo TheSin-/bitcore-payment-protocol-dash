@@ -39,17 +39,17 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/TheSin-/bitcore-payment-protocol-terracoin.git"
+    "url": "https://github.com/terracoin/bitcore-payment-protocol-terracoin.git"
   },
   "browser": "lib/browser.js",
   "dependencies": {
     "asn1.js": "=4.5.2",
-    "bitcore-lib-terracoin": "TheSin-/bitcore-lib-terracoin",
+    "bitcore-lib-terracoin": "^0.15.2",
     "jsrsasign": "=5.0.10",
     "protobufjs": "=5.0.1"
   },
   "devDependencies": {
-    "bitcore-build-terracoin": "TheSin-/bitcore-build-terracoin",
+    "bitcore-build-terracoin": "terracoin/bitcore-build-terracoin",
     "brfs": "^1.2.0",
     "chai": "~1.10.0",
     "gulp": "^3.8.10",

@@ -2,10 +2,10 @@ Bitcore-Terracoin Payment Protocol
 =======
 
 [![NPM Package](https://img.shields.io/npm/v/bitcore-payment-protocol-terracoin.svg?style=flat-square)](https://www.npmjs.org/package/bitcore-payment-protocol-terracoin)
-[![Build Status](https://img.shields.io/travis/TheSin-/bitcore-payment-protocol-terracoin.svg?branch=master&style=flat-square)](https://travis-ci.org/TheSin-/bitcore-payment-protocol-terracoin)
-[![Coverage Status](https://img.shields.io/coveralls/TheSin-/bitcore-payment-protocol-terracoin.svg?style=flat-square)](https://coveralls.io/r/TheSin-/bitcore-payment-protocol-terracoin)
+[![Build Status](https://img.shields.io/travis/terracoin/bitcore-payment-protocol-terracoin.svg?branch=master&style=flat-square)](https://travis-ci.org/terracoin/bitcore-payment-protocol-terracoin)
+[![Coverage Status](https://img.shields.io/coveralls/terracoin/bitcore-payment-protocol-terracoin.svg?style=flat-square)](https://coveralls.io/r/terracoin/bitcore-payment-protocol-terracoin)
 
-A module for [bitcore-terracoin](https://github.com/TheSin-/bitcore-terracoin) that implements [Payment Protocol](https://github.com/bitcoin/bips/blob/master/bip-0070.mediawiki) and other related BIPs.
+A module for [bitcore-terracoin](https://github.com/terracoin/bitcore-terracoin) that implements [Payment Protocol](https://github.com/bitcoin/bips/blob/master/bip-0070.mediawiki) and other related BIPs.
 
 ## Getting Started
 
@@ -41,7 +41,7 @@ var verified = request.verify();
 
 ## Contributing
 
-See [CONTRIBUTING.md](https://github.com/TheSin-/bitcore-terracoin/blob/master/CONTRIBUTING.md) on the main bitcore-terracoin repo for information about how to contribute.
+See [CONTRIBUTING.md](https://github.com/terracoin/bitcore-terracoin/blob/master/CONTRIBUTING.md) on the main bitcore-terracoin repo for information about how to contribute.
 
 ## License
 
