@@ -1,6 +1,6 @@
 {
   "name": "bitcore-payment-protocol-terracoin",
-  "version": "1.2.1",
+  "version": "1.5.0",
   "description": "Payment Protocol (BIP70 and related) support for bitcore-terracoin",
   "author": "BitPay <dev@bitpay.com>",
   "main": "index.js",
@@ -31,11 +31,17 @@
     {
       "name": "Esteban Ordano",
       "email": "eordano@gmail.com"
+    },
+    {
+      "name": "Matias Alejo Garcia",
+      "email": "ematiu@gmail.com"
     }
   ],
   "keywords": [
     "terracoin",
-    "bitcore-terracoin"
+    "bitcore-terracoin",
+    "payment protocol",
+    "BIP70"
   ],
   "repository": {
     "type": "git",
@@ -43,9 +49,12 @@
   },
   "browser": "lib/browser.js",
   "dependencies": {
-    "asn1.js": "=4.5.2",
+    "asn1.js": "=4.9.1",
+    "asn1.js-rfc3280": "=4.0.0",
+    "asn1.js-rfc5280": "=2.0.0",
     "bitcore-lib-terracoin": "^0.15.2",
-    "jsrsasign": "=5.0.10",
+    "bs58": "^4.0.1",
+    "jsrsasign": "^8.0.4",
     "protobufjs": "=5.0.1"
   },
   "devDependencies": {
